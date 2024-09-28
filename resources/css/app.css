@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+._button-primary
+{
+    @apply bg-blue-500 text-white border-2 border-blue-500
+}
+
+._button-secondary
+{
+  @apply text-black border-2 
+}
+
+._button-danger
+{
+  @apply bg-red-500 text-white border-2 border-red-500
+}
+
+button {
+    @apply h-[35px] font-semibold text-sm px-4 rounded-md shadow-sm duration-300 select-none outline-none;
+  }
+._card {
+  @apply p-[16px] rounded-md border-[2px] border-b-gray-400 shadow-md;
+}
+
+._modal-header {
+  @apply text-xl font-extrabold;
+}
